@@ -46,7 +46,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 #Device
 
-TARGET_SPECIFIC_HEADER_PATH := device/lge/e400/include
+#TARGET_SPECIFIC_HEADER_PATH := device/lge/e400/include
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE -DQCOM_ROTATOR_KERNEL_FORMATS
