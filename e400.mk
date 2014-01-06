@@ -11,7 +11,8 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=5m \
     dalvik.vm.heapgrowthlimit=32m \
-    dalvik.vm.heapsize=76m
+    dalvik.vm.heapsize=76m \
+    ro.fuse_sdcard=true
 
 PRODUCT_AAPT_CONFIG := normal mdpi ldpi
 PRODUCT_AAPT_PREF_CONFIG := ldpi
