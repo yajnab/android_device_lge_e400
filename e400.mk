@@ -73,6 +73,7 @@ PRODUCT_PACKAGES += \
     gralloc.msm7x27a \
     hwcomposer.msm7x27a \
     copybit.msm7x27a \
+    libqdMetaData \
     camera.e400 \
     gps.e400 \
     audio.a2dp.default \
