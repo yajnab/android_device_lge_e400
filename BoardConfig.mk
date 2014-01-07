@@ -1,6 +1,3 @@
-#Inheritances
-USE_CAMERA_STUB := true
-
 # inherit from the proprietary version
 -include vendor/lge/e400/BoardConfigVendor.mk
 
@@ -89,6 +86,10 @@ TARGET_GRALLOC_USES_ASHMEM := true
 
 #Media
 TARGET_QCOM_MEDIA_VARIANT := legacy
+
+#Camera
+COMMON_GLOBAL_CFLAGS += -DMR0_CAMERA_BLOB
+USE_CAMERA_STUB := true
 
 # to enable the GPS HAL
 BOARD_USES_QCOM_LIBRPC := true
