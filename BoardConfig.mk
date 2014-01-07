@@ -1,5 +1,5 @@
 #Inheritances
-#USE_CAMERA_STUB := true
+USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
 -include vendor/lge/e400/BoardConfigVendor.mk
