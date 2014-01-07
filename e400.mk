@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm7x27a \
     copybit.msm7x27a \
     libqdMetaData \
-    camera.e400 \
     camera.msm7x27a \
     gps.e400 \
     audio.a2dp.default \
